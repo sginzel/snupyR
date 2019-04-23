@@ -1,0 +1,47 @@
+Package: snupy
+Type: Package
+Title: SNuPy R libarary
+Version: 0.1.0
+Author: Sebastian Ginzel
+Maintainer: Sebastian Ginzel <sebastian.ginzel@inf.h-brs.de>
+Description: A library used to connect to the SNuPy variant discovery system. 
+    Developed by Sebastian Ginzel to perform automated whole-exome analysis
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  data.table,
+  dtplyr,
+  httr,
+  magrittr,
+  Matrix,
+  getPass,
+  readr,
+  R6,
+  digest,
+  openssl,
+  IRanges,
+  igraph
+RoxygenNote: 6.0.1
+Collate: 
+    'aqua.R'
+    'snupy_data.R'
+    'snupy_data_collection_classes.R'
+    'entity.R'
+    'entity_group.R'
+    'experiment.R'
+    'gene_panel.R'
+    'helpers.R'
+    'query.R'
+    'sample.R'
+    'snupy.R'
+    'snupy_data_collection.R'
+    'snupy_data_collection_setops.R'
+    'snupy_graph.R'
+    'snupy_graph_helper.R'
+    'snupy_memory.R'
+    'snupy_session.R'
+    'snupy_tag.R'
+    'specimen.R'
+    'variant_data_set.R'
+    'vcf_file.R'
